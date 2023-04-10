@@ -1,4 +1,7 @@
 import { createApp } from 'vue'
+import RTComponents from './index.js'
 import App from './App.vue'
 
-createApp(App).mount('#app')
+import './tailwind.css'
+
+createApp(App).use(RTComponents).mount('#app')
